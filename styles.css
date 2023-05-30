@@ -1,0 +1,90 @@
+img {
+    max-width: 50%;
+    height: auto;
+    display:block;
+    margin: 20px auto;
+  }
+  body {
+font-family: Arial, sans-serif;
+background-color: #f1f1f1;
+margin: 0;
+padding: 0;
+}
+
+#main {
+max-width: 800px;
+margin: 0 auto;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+text-align: center;
+color: #333;
+}
+
+#img-div {
+text-align: center;
+margin: 20px 0;
+}
+
+
+#img-caption {
+text-align: center;
+font-style: italic;
+color: #888;
+margin-top: 10px;
+}
+
+#tribute-info {
+margin-top: 20px;
+}
+
+h2 {
+color: #333;
+}
+
+p {
+line-height: 1.5;
+color: #555;
+}
+
+#tribute-link {
+display: block;
+text-align: center;
+margin-top: 30px;
+color: #555;
+text-decoration: none;
+font-weight: bold;
+}
+
+#tribute-link:hover {
+color: #333;
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url("https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/06/04/Shivaji%20Maharaj%281%29-1591292658.jpg?itok=uGUmIrnM");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2::before {
+content: "➤";
+margin-right: 10px;
+font-size: 1.2em;
+}
+
+p::before {
+content: "•";
+margin-right: 10px;
+}
